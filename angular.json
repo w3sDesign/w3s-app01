@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/w3s-app01/browser",
+            "outputPath": "projects/w3s-app01/dist/browser",
             "index": "projects/w3s-app01/src/index.html",
             "main": "projects/w3s-app01/src/main.ts",
             "polyfills": "projects/w3s-app01/src/polyfills.ts",
@@ -110,7 +110,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/w3s-app01/server",
+            "outputPath": "projects/w3s-app01/dist/server",
             "main": "projects/w3s-app01/src/main.server.ts",
             "tsConfig": "projects/w3s-app01/tsconfig.server.json",
             "inlineStyleLanguage": "scss"
